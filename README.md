@@ -15,24 +15,25 @@ Try the task and see your score at
 
 ## Installation
 
+You can install this library directly from GitHub using pip:
+
+```bash
+pip install git+https://github.com/jayolson/divergent-association-task.git
+```
+
+Download and extract the GloVe model file (`glove.840B.300d.zip`) from <https://nlp.stanford.edu/projects/glove/> and place it in your project directory.
+
+Alternatively, you can install manually by following these steps:
+
 1. Clone this code:
-
     - `git clone https://github.com/jayolson/divergent-association-task.git`
-
 2. Install [Python 3](https://www.python.org) and [pip](https://pypi.org/project/pip/).
-
 3. Download the dependencies and model:
-
     - `make install` on Unix-like systems
-
     - or else:
-
         - `pip3 install --user numpy scipy`
-
         - Download and extract glove.840B.300d.zip from <https://nlp.stanford.edu/projects/glove/>
-
 4. Try it:
-
     - `python3 examples.py`
 
 ## Examples

@@ -1,0 +1,26 @@
+[project]
+name = "divergent-association-task"
+version = "0.1.0"
+description = "Compute score for Divergent Association Task, a quick and simple measure of creativity."
+authors = [
+    { name = "Jay Olson" }
+]
+license = { file = "LICENSE.txt" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "scipy"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/jayolson/divergent-association-task"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
